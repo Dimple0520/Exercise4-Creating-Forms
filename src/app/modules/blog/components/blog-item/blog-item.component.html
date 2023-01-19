@@ -1,0 +1,13 @@
+<a
+  [routerLink]="[index]"
+  class="list-group-item clearfix">
+
+ <div class="form">
+    <p >ID: {{ blog.id }}</p>
+    <p >Title: {{ blog.title }}</p>
+    <p>Description: {{ blog.description }}</p>
+    <p >Author: {{ blog.author }}</p>
+    <p *ngFor="let comment of blog.comments">Comment: {{ comment.name }}</p>
+ </div>
+
+</a>

@@ -1,0 +1,31 @@
+{
+  "books": [
+    {
+      "name": "A Midsummer Night's Dream",
+      "author": [
+        {
+          "name": "William Shakespeare"
+        }
+      ],
+      "isbn": 114526
+    },
+    {
+      "name": "The Sonnets",
+      "author": [
+        {
+          "name": "William Shakespeare"
+        }
+      ],
+      "isbn": 114528
+    },
+    {
+      "name": "Romeo and Juliet",
+      "author": [
+        {
+          "name": "William Shakespeare"
+        }
+      ],
+      "isbn": 114529
+    }
+  ]
+}

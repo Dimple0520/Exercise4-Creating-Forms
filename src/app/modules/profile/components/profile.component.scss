@@ -1,0 +1,49 @@
+.form-control{
+    border-color: rgb(9, 123, 165);
+    width:500px;
+    height: 50px;
+    padding:10px;
+    border-radius: 15px;
+    font-family: poppins;
+    font-size: 18px;
+
+   
+}
+form{
+    background-color: rgb(152, 240, 240, 0.75);
+    width:600px;
+    height: 500px;
+    padding:50px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 75px;
+    box-shadow: 0 0 10px rgb(10, 9, 9);
+   
+    
+}
+.form-check-label{
+    font-family: poppins;
+    font-size: 19px;
+    margin-bottom: 1px;
+    
+}
+.form-label{
+    
+    font-size: 19px;
+    margin-bottom: 1px;
+}
+.btn-outline-primary{
+padding:10px;
+width: 300px;
+border-radius: 15px;
+font-family: poppins;
+font-size: 20px;
+border: 2px solid hsl(240, 83%, 46%);
+
+}
+.background-color{
+    opacity: 0.2;
+}
+.active{
+    padding:10px;
+}

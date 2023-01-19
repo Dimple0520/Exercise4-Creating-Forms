@@ -1,0 +1,13 @@
+<div class="form">
+   <p>{{ blog.title }}</p> 
+   <p>{{ blog.description }}</p> 
+   <p>{{ blog.author }}</p> 
+   <div class="list-group-item">
+   <div  *ngFor="let comment of blog.comments">
+      <p>{{ comment.name }}</p> </div>
+    </div>
+  </div>
+<div class="buttn">
+<button type="button" class="btn btn-outline-info" (click)="onEditBlog()"><i class="fa fa-edit"></i> Edit</button>
+<button type="button" class="btn btn-outline-danger" (click)="onDeleteBlog()"><i class="fa fa-trash"></i> Delete</button>
+</div>

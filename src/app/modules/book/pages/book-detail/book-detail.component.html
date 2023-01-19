@@ -1,0 +1,13 @@
+<div class="form">
+
+    <p>{{ book.name }}</p>
+    <div *ngFor="let author of book.authors">
+    <p>{{ author.name }}</p>
+    <p>{{ book.isbn }}</p>
+  </div>
+  </div>
+  <div class="buttn">
+<button type="button" class="btn btn-outline-info" (click)="onEditBook()"><i class="fa fa-edit"></i> Edit</button>
+<button type="button" class="btn btn-outline-danger" (click)="onDeleteBook()"><i class="fa fa-trash"></i> Delete</button>
+</div>
+
