@@ -25,8 +25,7 @@ ul {
   li a:hover:not(.active) {
     background-color: rgba(109, 236, 228, 0.75);
   }
-  
-  .active {
-    background-color: #08754d;
-  }
  
+  .router-link-active {
+    background-color: #05b8bb;
+}
